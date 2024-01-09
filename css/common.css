@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.sub-title {
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 26px;
+  color: #d9dbe1;
+}
+
+.logo {
+  max-height: 68px;
+}
+
+.gradient-bg {
+  position: relative;
+  background-repeat: no-repeat;
+  background-image: image-set(
+    url("../images/background/gradient-bg.webp") 1x,
+    url("../images/background/gradient-bg@2x.webp") 2x
+  );
+  background-size: cover;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.primary-btn {
+  width: 170px;
+  color: #fff;
+  padding: 10px;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 18px;
+  border-radius: 30px;
+  background: linear-gradient(309deg, #6c4efe 21.17%, #1fd9f2 91.79%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+@media (max-width: 992px) {
+  .gradient-bg {
+    background-image: image-set(
+      url("../images/background/gradient-bg-mobile.webp") 1x,
+      url("../images/background/gradient-bg-mobile@2x.webp") 2x
+    );
+  }
+}

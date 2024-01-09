@@ -1,0 +1,349 @@
+@import "common.css";
+@import "header.css";
+@import "footer.css";
+
+.hero-title {
+  color: #171717;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+  max-width: 536px;
+}
+
+.hero-sub-title {
+  color: #171717;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.bitcoin-ecosystem-title {
+  color: #171717;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  max-width: 787px;
+}
+
+.blockchain-card {
+  border-radius: 52px;
+  border: 1px solid #848484;
+  background: #fff;
+  flex: 1 1 0px;
+}
+
+.blockchain-bg {
+  border-radius: 12px;
+  min-width: 100%;
+  min-height: 252px;
+  padding: 37px 56px;
+  column-gap: 3%;
+  background-repeat: no-repeat;
+  background-image: image-set(
+    url("../images/background/blockchain-bg.webp") 1x,
+    url("../images/background/blockchain-bg@2x.webp") 2x
+  );
+  background-size: cover;
+}
+
+.blockchain-card-1 {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.37);
+  padding: 49px 28px;
+  margin-bottom: 20px;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.blockchain-bg > div {
+  flex: 0 0 25%;
+}
+
+.economy-os-card {
+  padding: 27px;
+  border-radius: 30px;
+  border: 1px solid #eae8e8;
+  background: #fff;
+  box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.05);
+  margin-bottom: 40px;
+  min-height: 326px;
+}
+
+.platform-name {
+  color: #171717;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  flex-grow: 1;
+  padding: 0 15px;
+}
+
+.platform-icon {
+  background-color: #050505;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+}
+
+.casho-ai-faq {
+  padding: 7px 15px;
+  border-radius: 12px;
+  border: 1px solid #f4f4f4;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.04);
+  margin: 10px -15px 0 -15px;
+}
+
+.platform-row:not(:last-child) {
+  border-bottom: 1px solid #d4d4d4;
+  padding: 15px 0;
+}
+
+.platform-row:last-child {
+  padding-top: 15px;
+}
+
+.activity-card {
+  border-radius: 26px;
+  border: 1px solid #2e2e2e;
+  position: relative;
+  flex: 1 0 21%;
+}
+
+.activity-card > img {
+  width: 100%;
+}
+
+.card-label {
+  border-radius: 0px 0px 26px 26px;
+  background: #4e75fe;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 12px;
+}
+
+.datalayer-token-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 181px;
+  height: 120px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  row-gap: 21px;
+}
+
+.datalayer-token-card-container {
+  display: flex;
+  align-items: center;
+  column-gap: 39px;
+  padding: 18px 24px;
+  border-radius: 20px;
+  border: 1px solid #d26b1b;
+  background: #f09448;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.26);
+  max-width: fit-content;
+}
+
+.tech-count {
+  color: #6c4efe;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.tech-count-section {
+  align-items: center;
+  margin-top: 100px;
+}
+
+.card-bg-1 {
+  background: linear-gradient(90deg, #59cde9 0%, #645efd 100%);
+}
+
+.card-bg-2 {
+  background: linear-gradient(90deg, #2838ce 0%, #c66cfe 100%);
+}
+
+.section-padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.tech-count-container {
+  padding: 37px;
+  border: 2px solid #6c4efe;
+  width: 124px;
+  height: 124px;
+  border-radius: 50%;
+  margin-bottom: 42px;
+}
+
+.tech-count-section-title {
+  color: #171717;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.tech-count-section-content {
+  color: #171717;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  max-width: 823px;
+}
+
+.online-activities-section {
+  background-color: #000;
+  padding: 52px;
+}
+
+.online-activities-title {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hero-image {
+  max-width: 476px;
+}
+
+.plus-icon {
+  position: absolute;
+  bottom: 40%;
+  width: 90px !important;
+  height: 90px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.iphone-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.iphone-bg-mobile {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  width: 100%;
+}
+
+.data-economy-card-container {
+  flex: 0 0 30%;
+}
+
+@media (max-width: 992px) {
+  .hero-title {
+    max-width: 270px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+  }
+
+  .hero-sub-title {
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .hero-image {
+    max-width: 302px;
+  }
+
+  .bitcoin-ecosystem-title {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .section-padding {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .tech-count-section {
+    align-items: unset;
+    margin-top: 58px;
+  }
+
+  .tech-count-container {
+    width: 98px;
+    height: 98px;
+    padding: 30px 29px;
+    margin-bottom: 23px;
+  }
+
+  .tech-count {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .tech-count-section-title {
+    font-size: 20px;
+  }
+
+  .blockchain-bg {
+    min-width: unset;
+    padding: 25px 54px 16px 56px;
+    background-image: image-set(
+      url("../images/background/blockchain-bg-mobile.webp") 1x,
+      url("../images/background/blockchain-bg-mobile@2x.webp") 2x
+    );
+  }
+
+  .blockchain-card-1 {
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 20px 50px;
+    margin-bottom: 9px;
+    min-width: 250px;
+    white-space: nowrap;
+  }
+
+  .online-activities-section {
+    padding: 33px;
+  }
+
+  .online-activities-title {
+    font-size: 24px;
+    padding-bottom: 40px;
+  }
+
+  .activity-card {
+    min-height: 208px;
+  }
+
+  .datalayer-token-card-container {
+    flex-direction: column;
+    justify-content: center;
+    padding: 27px 36px;
+    border-radius: 4px;
+    margin: 0 auto;
+    row-gap: 11px;
+  }
+}
