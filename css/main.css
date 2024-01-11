@@ -118,8 +118,8 @@
   column-gap: 3%;
   background-repeat: no-repeat;
   background-image: image-set(
-    url("../images/background/blockchain-bg.png") 1x,
-    url("../images/background/blockchain-bg@2x.png") 2x
+    url("../images/background/blockchain-bg.webp") 1x,
+    url("../images/background/blockchain-bg@2x.webp") 2x
   );
   background-size: cover;
 }
@@ -446,8 +446,8 @@
     min-width: unset;
     padding: 25px 54px 16px 56px;
     background-image: image-set(
-      url("../images/background/blockchain-bg-mobile.png") 1x,
-      url("../images/background/blockchain-bg-mobile@2x.png") 2x
+      url("../images/background/blockchain-bg-mobile.webp") 1x,
+      url("../images/background/blockchain-bg-mobile@2x.webp") 2x
     );
   }
 
