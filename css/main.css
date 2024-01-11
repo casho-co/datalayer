@@ -7,7 +7,7 @@
   font-size: 70px;
   font-weight: 700;
   line-height: 80px;
-  max-width: 536px;
+  max-width: 610px;
 }
 
 .hero-sub-title {
@@ -30,6 +30,84 @@
   border: 1px solid #848484;
   background: #fff;
   flex: 1 1 0px;
+  padding: 44px;
+}
+
+.section-2 {
+  background: linear-gradient(90deg, rgba(244, 107, 69, 0.68) 0%, #eea849 100%);
+  min-height: 250px;
+  padding: 45px;
+}
+
+.section-2-title {
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.section-2-content {
+  max-width: 1036px;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+}
+
+.blockchain-card-container {
+  column-gap: 30px;
+  padding: 60px;
+  row-gap: 21px;
+}
+
+.card-title {
+  color: #171717;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.card-content {
+  color: #171717;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.secondary-content {
+  color: #171717;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.primary-content {
+  color: #171717;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.blockchain-card-container-1 {
+  column-gap: 116px;
+  padding: 60px;
+  row-gap: 21px;
+}
+
+.blockchain-section-title {
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.other-blockchain-card {
+  min-height: 574px;
+  border-radius: 18px;
+  border: 1px solid #cbcbcb;
+  background: #fff;
+  flex: 1 1 0;
 }
 
 .blockchain-bg {
@@ -40,8 +118,8 @@
   column-gap: 3%;
   background-repeat: no-repeat;
   background-image: image-set(
-    url("../images/background/blockchain-bg.webp") 1x,
-    url("../images/background/blockchain-bg@2x.webp") 2x
+    url("../images/background/blockchain-bg.png") 1x,
+    url("../images/background/blockchain-bg@2x.png") 2x
   );
   background-size: cover;
 }
@@ -141,11 +219,12 @@
   width: 181px;
   height: 120px;
   border-radius: 10px;
-  color: #fff;
+  color: #000;
   font-size: 16px;
   font-weight: 600;
   line-height: 18px;
   row-gap: 21px;
+  background-color: #fff;
 }
 
 .datalayer-token-card-container {
@@ -154,8 +233,8 @@
   column-gap: 39px;
   padding: 18px 24px;
   border-radius: 20px;
-  border: 1px solid #d26b1b;
-  background: #f09448;
+  border: 2px solid #dc681c;
+  background: #f5a97b;
   box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.26);
   max-width: fit-content;
 }
@@ -170,7 +249,6 @@
 
 .tech-count-section {
   align-items: center;
-  margin-top: 100px;
 }
 
 .card-bg-1 {
@@ -200,6 +278,7 @@
   text-align: center;
   font-size: 35px;
   font-weight: 700;
+  padding-top: 72px;
 }
 
 .tech-count-section-content {
@@ -208,7 +287,7 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
-  max-width: 823px;
+  padding-bottom: 77px;
 }
 
 .online-activities-section {
@@ -238,6 +317,11 @@
   margin-right: auto;
 }
 
+.other-blockchain-section {
+  background-color: #000;
+  padding: 70px 150px;
+}
+
 .iphone-bg {
   position: absolute;
   top: 0;
@@ -251,6 +335,28 @@
   right: 0;
   z-index: 0;
   width: 100%;
+}
+
+.slick-slide {
+  min-height: 574px !important;
+  margin-right: 13px;
+}
+
+.slick-dots {
+  display: none !important;
+}
+
+.datalayer-token-title {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.datalayer-token-content {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
 }
 
 .data-economy-card-container {
@@ -286,9 +392,46 @@
     padding-bottom: 32px;
   }
 
+  .section-2-title {
+    font-size: 20px;
+  }
+
+  .section-2-content {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .section-2 {
+    padding: 20px 10px;
+  }
+
   .tech-count-section {
     align-items: unset;
-    margin-top: 58px;
+  }
+
+  .blockchain-card-container {
+    padding: 29px;
+  }
+
+  .blockchain-card-container-1 {
+    padding: 38px 54px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-content {
+    font-size: 18px;
+  }
+
+  .other-blockchain-section {
+    background-color: #122631;
+    padding: 50px 0 44px;
+  }
+
+  .blockchain-section-title {
+    font-size: 20px;
   }
 
   .tech-count-container {
@@ -305,14 +448,15 @@
 
   .tech-count-section-title {
     font-size: 20px;
+    padding-top: 30px;
   }
 
   .blockchain-bg {
     min-width: unset;
     padding: 25px 54px 16px 56px;
     background-image: image-set(
-      url("../images/background/blockchain-bg-mobile.webp") 1x,
-      url("../images/background/blockchain-bg-mobile@2x.webp") 2x
+      url("../images/background/blockchain-bg-mobile.png") 1x,
+      url("../images/background/blockchain-bg-mobile@2x.png") 2x
     );
   }
 
@@ -342,8 +486,41 @@
     flex-direction: column;
     justify-content: center;
     padding: 27px 36px;
-    border-radius: 4px;
     margin: 0 auto;
     row-gap: 11px;
   }
+
+  .datalayer-token-title,
+  .datalayer-token-content {
+    font-size: 20px;
+  }
+}
+
+.slider {
+  position: relative;
+}
+
+.slider .slick-prev,
+.slider .slick-next {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 100%;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.slider .slick-prev {
+  left: 75%; /* Adjust the distance from the left */
+}
+
+.slider .slick-next {
+  right: 5%; /* Adjust the distance from the right */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 30px !important;
 }
