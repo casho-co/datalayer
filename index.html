@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link
+    <link
       rel="icon"
       type="image/png"
       sizes="16x16"
       href="images/logo/logo.png"
-    /> -->
+    />
     <title>Datalayer</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="robots" content="noarchive" />
@@ -942,10 +942,7 @@
           Comparing to other Blockchains
         </h3>
         <div class="slider py-5">
-          <div
-            class="other-blockchain-card"
-            style="min-width: 270px; margin-left: 18px"
-          >
+          <div class="other-blockchain-card">
             <div
               style="
                 padding: 18px;
@@ -980,7 +977,7 @@
               </div>
             </div>
           </div>
-          <div class="other-blockchain-card" style="min-width: 270px">
+          <div class="other-blockchain-card">
             <div
               style="
                 padding: 18px;
@@ -1015,7 +1012,7 @@
               </div>
             </div>
           </div>
-          <div class="other-blockchain-card" style="min-width: 270px">
+          <div class="other-blockchain-card">
             <div
               style="
                 padding: 18px;
@@ -1052,7 +1049,7 @@
           </div>
           <div
             class="other-blockchain-card d-flex flex-column justify-content-between"
-            style="background-color: #f2f9ff; min-width: 270px"
+            style="background-color: #f2f9ff"
           >
             <div>
               <div
@@ -1577,7 +1574,7 @@
           </div>
           <div class="col-lg-4">
             <img
-              style="max-width: 360px"
+              class="datalayer-token-image"
               srcset="
                 images/logo/datalayer-token.png    1x,
                 images/logo/datalayer-token@2x.png 2x
@@ -1911,12 +1908,9 @@
     </script> -->
     <script>
       jQuery(".slider").slick({
-        dots: true,
-        infinite: false,
+        infinite: true,
         slidesToShow: 1,
         centerMode: true,
-        centerPadding: "13px",
-        nav: true,
       });
     </script>
   </body>

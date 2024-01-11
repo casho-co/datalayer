@@ -337,15 +337,6 @@
   width: 100%;
 }
 
-.slick-slide {
-  min-height: 574px !important;
-  margin-right: 13px;
-}
-
-.slick-dots {
-  display: none !important;
-}
-
 .datalayer-token-title {
   color: #fff;
   font-size: 35px;
@@ -494,6 +485,10 @@
   .datalayer-token-content {
     font-size: 20px;
   }
+
+  .datalayer-token-image {
+    width: 100%;
+  }
 }
 
 .slider {
@@ -523,4 +518,17 @@
 .slick-prev:before,
 .slick-next:before {
   font-size: 30px !important;
+}
+
+.slick-slide {
+  min-height: 574px !important;
+  margin: 0 5px;
+}
+
+.slick-dots {
+  display: none !important;
+}
+
+.datalayer-token-image {
+  max-width: 360px;
 }
