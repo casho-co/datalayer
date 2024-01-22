@@ -1,1 +1,9 @@
-# datalayer
+## TO RUN
+
+gulp
+
+## TO CREATE BUILD
+
+npm run build
+
+## DEPLOY THE FILES FROM DIST FOLDER
