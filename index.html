@@ -83,6 +83,12 @@
   <body>
     <main>
       <section class="gradient-bg">
+        <img
+          srcset="images/globe.webp 1x, images/globe@2x.webp 2x"
+          class="d-none d-lg-block position-absolute"
+          style="right: 0; height: 135%"
+          alt=""
+        />
         <header class="header p-5 mx-lg-5">
           <a aria-label="Site Logo" href="/"
             ><img
@@ -93,61 +99,84 @@
               "
               alt=""
           /></a>
-          <nav class="navigation">
-            <ul class="navigation-list">
-              <li class="active current">
-                <a
-                  aria-label="Home"
-                  class="navigation-link"
-                  aria-current="page"
-                  href="/"
-                  >Home</a
-                >
-              </li>
-              <li>
-                <a
-                  aria-label="About"
-                  class="navigation-link"
-                  href="pages/about.html"
-                  >About</a
-                >
-              </li>
-              <li>
-                <a aria-label="Test" class="navigation-link" href="#token"
-                  >Token</a
-                >
-              </li>
-              <li class="dropdown-center">
-                <a
-                  aria-label="Dropdown"
-                  class="navigation-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Resources
+          <div
+            class="d-flex align-items-center justify-content-center"
+            style="column-gap: 73px"
+          >
+            <div class="soon-btn d-none d-lg-block">
+              DLY DROP
+              <img
+                srcset="images/icons/soon.webp 1x, images/icons/soon@2x.webp 2x"
+                class="soon-icon"
+                alt=""
+              />
+            </div>
+            <nav class="navigation">
+              <ul class="navigation-list">
+                <li class="active current">
+                  <a
+                    aria-label="Home"
+                    class="navigation-link"
+                    aria-current="page"
+                    href="/"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    aria-label="About"
+                    class="navigation-link"
+                    href="pages/about.html"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a aria-label="Test" class="navigation-link" href="#token"
+                    >Token</a
+                  >
+                </li>
+                <li class="soon-btn d-block d-lg-none">
+                  DLY DROP
                   <img
-                    src="images/icons/chevron-up.webp"
-                    class="ms-2 mt-2"
+                    srcset="
+                      images/icons/soon.webp    1x,
+                      images/icons/soon@2x.webp 2x
+                    "
+                    class="soon-icon"
                     alt=""
                   />
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a
-                      aria-label="White paper"
-                      class="dropdown-item text-center"
-                      href="https://whitepaper.datalayer.co"
-                      target="_blank"
-                      >White Paper</a
-                    >
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </nav>
-
+                </li>
+                <li class="dropdown-center">
+                  <a
+                    aria-label="Dropdown"
+                    class="navigation-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Resources
+                    <img
+                      src="images/icons/chevron-up.webp"
+                      class="ms-2 mt-2"
+                      alt=""
+                    />
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        aria-label="White paper"
+                        class="dropdown-item text-center"
+                        href="https://whitepaper.datalayer.co"
+                        target="_blank"
+                        >White Paper</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
           <div class="mobile-navigation-btn">
             <img
               src="images/icons/ic_round-menu.webp"
@@ -165,32 +194,23 @@
           <div class="row align-items-center w-100 m-0">
             <div class="col-lg-6">
               <h3 data-aos="fade-up" class="hero-title mb-5 mx-lg-0 mx-auto">
-                Data ownership and monetization infrastructure on Bitcoin
+                The next million chains in the multiverse
               </h3>
-              <p
-                data-aos="fade-up"
-                class="hero-sub-title d-lg-block d-none mb-5 pb-3"
-              >
+              <p data-aos="fade-up" class="hero-sub-title mb-5 pb-3">
                 Datalayer is a new layer 1 blockchain infrastructure that
                 introduces localchains to bring infinite scalability of Web2 to
                 Web3.
               </p>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 p-0">
               <img
-                data-aos="fade-up"
-                srcset="images/globe.webp 1x, images/globe@2x.webp 2x"
-                class="d-block mx-auto hero-image"
+                srcset="
+                  images/globe-mobile.webp    1x,
+                  images/globe-mobile@2x.webp 2x
+                "
+                class="d-block d-lg-none w-100"
                 alt=""
               />
-              <p
-                data-aos="fade-up"
-                class="hero-sub-title d-lg-none d-block py-4"
-              >
-                Datalayer is a new layer 1 blockchain infrastructure that
-                introduces localchains to bring infinite scalability of Web2 to
-                Web3.
-              </p>
             </div>
           </div>
         </div>
