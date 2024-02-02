@@ -37,6 +37,8 @@
   background: linear-gradient(90deg, rgba(244, 107, 69, 0.68) 0%, #eea849 100%);
   min-height: 250px;
   padding: 45px;
+  position: relative;
+  z-index: 1;
 }
 
 .section-2-title {

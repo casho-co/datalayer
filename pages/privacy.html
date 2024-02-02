@@ -79,60 +79,87 @@
               "
               alt=""
           /></a>
-          <nav class="navigation">
-            <ul class="navigation-list">
-              <li>
-                <a
-                  aria-label="Home"
-                  class="navigation-link"
-                  aria-current="page"
-                  href="../"
-                  >Home</a
-                >
-              </li>
-              <li>
-                <a
-                  aria-label="About"
-                  class="navigation-link"
-                  href="./about.html"
-                  >About</a
-                >
-              </li>
-              <li>
-                <a aria-label="Test" class="navigation-link" href="../#token"
-                  >Token</a
-                >
-              </li>
-              <li class="dropdown-center">
-                <a
-                  aria-label="Dropdown"
-                  class="navigation-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Resources
+          <div
+            class="d-flex align-items-center justify-content-center"
+            style="column-gap: 73px"
+          >
+            <div class="soon-btn d-none d-lg-block">
+              DLY DROP
+              <img
+                srcset="
+                  ../images/icons/soon.webp    1x,
+                  ../images/icons/soon@2x.webp 2x
+                "
+                class="soon-icon"
+                alt=""
+              />
+            </div>
+            <nav class="navigation">
+              <ul class="navigation-list">
+                <li>
+                  <a
+                    aria-label="Home"
+                    class="navigation-link"
+                    aria-current="page"
+                    href="../"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    aria-label="About"
+                    class="navigation-link"
+                    href="./about.html"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a aria-label="Test" class="navigation-link" href="../#token"
+                    >Token</a
+                  >
+                </li>
+                <li class="soon-btn d-block d-lg-none">
+                  DLY DROP
                   <img
-                    src="../images/icons/chevron-up.webp"
-                    class="ms-2 mt-2"
+                    srcset="
+                      ../images/icons/soon.webp    1x,
+                      ../images/icons/soon@2x.webp 2x
+                    "
+                    class="soon-icon"
                     alt=""
                   />
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a
-                      aria-label="White paper"
-                      class="dropdown-item text-center"
-                      href="https://whitepaper.datalayer.co"
-                      target="_blank"
-                      >White Paper</a
-                    >
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </nav>
+                </li>
+                <li class="dropdown-center">
+                  <a
+                    aria-label="Dropdown"
+                    class="navigation-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Resources
+                    <img
+                      src="../images/icons/chevron-up.webp"
+                      class="ms-2 mt-2"
+                      alt=""
+                    />
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        aria-label="White paper"
+                        class="dropdown-item text-center"
+                        href="https://whitepaper.datalayer.co"
+                        target="_blank"
+                        >White Paper</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
 
           <div class="mobile-navigation-btn">
             <img
